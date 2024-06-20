@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #538392, #B3E2A7);
+
+}
+
+header{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #B3E2A7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6295A2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #6295A2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#fahrenheit {
+    background-color: #eee;
+}
+
+#formula {
+    font-style: arial;
+    margin-top: 10px;
+    color: white;
+}
